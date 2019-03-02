@@ -18,7 +18,7 @@
       <a href="<?php echo site_url(); ?>/category/front-end" class="tab">UI/UX</a>
       <a href="<?php echo site_url(); ?>/category/back-end" class="tab">Programming</a>
       <a href="<?php echo site_url(); ?>/category/javascript" class="tab">JavaScript</a>
-      <a href="<?php echo site_url(); ?>/category/workflow" class="tab">Workflow</a>
+      <a href="<?php echo site_url(); ?>/category/workflow" class="tab">Workflow</a>`
       <a href="<?php echo site_url(); ?>/category/system" class="tab">DevOps</a>
       <a href="<?php echo site_url(); ?>/category/wordpress" class="tab">WordPress</a>
       <a href="<?php echo site_url(); ?>/category/thoughts" class="tab">Personal</a>

@@ -4,21 +4,33 @@
 
     <section class="section">
       <h1>Hi, I'm Shravan</h1>
-      <div class="lead">I’m a developer.</div>
+      <div class="lead">
+        <p>
+          I am Shravan Kumar Kasagoni working as a Technical Manager at Novartis. As part of my daily job,
+          I am responsible for design and development of RESTful APIs, single page web applications and enterprise applications.
+          Before Novartis, I worked with Thomson Reuters, RealPage, and Pramati Technologies. My expertise includes different
+          cloud technologies, modern JavaScript frameworks, and many front-end technologies.
+        </p>
+        <p>
+          I am a core member of Microsoft User Group Hyderabad. As a community leader, I manage different user group
+          and community-related activities like conducting monthly meetups, events, presentations, technical
+          discussions and code camps. I also actively contribute to other open source communities. I am a regular
+          speaker at many conferences, technical events, local user group meetups and Microsoft events.
+        </p>
+        <p>
+          I have been awarded Microsoft's prestigious Most Valuable Professional (MVP) title for
+          last seven years in a row under Developer Technologies category, for my community
+          contributions in modern web technologies using open source and Microsoft technologies.
+        </p>
+      </div>
     </section>
-
-<!--    <section class="section">-->
-<!--      <blockquote class="details">-->
-<!--       test <cite>&mdash; Web Developer</cite>-->
-<!--      </blockquote>-->
-<!--    </section>-->
 
     <section class="section">
       <h2>Latest Posts <a class="view-all" href="<?php echo site_url(); ?>/blog">View all</a></h2>
       <?php $args = array(
         'order' => 'desc',
         'orderby' => 'publish_date',
-        'posts_per_page' => '5',
+        'posts_per_page' => '10',
       );
 
       $latest = new WP_Query($args);
