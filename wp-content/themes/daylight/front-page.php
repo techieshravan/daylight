@@ -6,7 +6,7 @@
       <h1>Hi, I'm Shravan</h1>
       <div class="lead">
         <p>
-          I am Shravan Kumar Kasagoni working as a Technical Manager at Novartis. As part of my daily job,
+          I am Shravan Kumar Kasagoni working as a Technical Design Expert (Solution Architect) at Novartis. As part of my daily job,
           I am responsible for design and development of RESTful APIs, single page web applications and enterprise applications.
           Before Novartis, I worked with Thomson Reuters, RealPage, and Pramati Technologies. My expertise includes different
           cloud technologies, modern JavaScript frameworks, and many front-end technologies.
@@ -19,14 +19,14 @@
         </p>
         <p>
           I have been awarded Microsoft's prestigious Most Valuable Professional (MVP) title for
-          last seven years in a row under Developer Technologies category, for my community
+          last eight years in a row under Developer Technologies category, for my community
           contributions in modern web technologies using open source and Microsoft technologies.
         </p>
       </div>
     </section>
 
     <section class="section">
-      <h2>Latest Posts <a class="view-all" href="<?php echo site_url(); ?>/blog">View all</a></h2>
+      <h2>Latest Posts <a class="view-all" href="<?php echo site_url(); ?>/blog-posts">View all</a></h2>
       <?php $args = array(
         'order' => 'desc',
         'orderby' => 'publish_date',

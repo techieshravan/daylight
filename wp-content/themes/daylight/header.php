@@ -27,9 +27,9 @@
         </a>
       </div>
       <div class="links">
-        <a href="http://theshravan.net">About me</a>
-        <a href="http://theshravan.net/blog/">Blog</a>
-        <a href="http://theshravan.net#publications">Publications</a>
+        <a href="/">About me</a>
+        <a href="/blog-posts">Blog</a>
+        <a href="/#publications">Publications</a>
 <!--        <a href="--><?php //echo site_url(); ?><!--/newsletter">Newsletter</a>-->
       </div>
       <div class="extra">
