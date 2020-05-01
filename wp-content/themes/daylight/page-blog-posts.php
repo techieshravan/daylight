@@ -28,22 +28,25 @@
 
     <section class="list">
       <div class="lead" id="none-found">No results found.</div>
+ 		<?php 
+			$args = array(
+				'post_type' => 'post',
+				'orderby' => 'date',
+				'post_status' => 'publish',
+				'order' => 'DESC',
+				'posts_per_page' => -1 // this will retrive all the post that is published 
+			);
 
+			$popular = new WP_Query($args);
 
-      <?php
-      $args = new WP_Query( array( 'author' => 'shravan' ) );
-
-      $popular = new WP_Query($args);
-
-      if ($popular->have_posts()) :
-        while ($popular->have_posts()) :
-          $popular->the_post();
-          get_template_part('content', get_post_format());
-        endwhile;
-      endif;
-      wp_reset_postdata(); ?>
-    </section>
-
+			if ($popular->have_posts()) :
+				while ($popular->have_posts()) :
+					$popular->the_post();
+					get_template_part('content', get_post_format());
+				endwhile;
+			endif;
+		?>
+	  </section>
   </div>
 
-<?php get_footer();
+<?php get_footer();?>
