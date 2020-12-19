@@ -5,22 +5,9 @@
     <section class="section">
       <h1>Hi, I'm Shravan</h1>
       <div class="lead">
-        <p>
-          I am Shravan Kumar Kasagoni working as a Technical Design Expert (Solution Architect) at Novartis. As part of my daily job,
-          I am responsible for design and development of RESTful APIs, single page web applications and enterprise applications.
-          Before Novartis, I worked with Thomson Reuters, RealPage, and Pramati Technologies. My expertise includes different
-          cloud technologies, modern JavaScript frameworks, and many front-end technologies.
-        </p>
-        <p>
-          I am a core member of Microsoft User Group Hyderabad. As a community leader, I manage different user group
-          and community-related activities like conducting monthly meetups, events, presentations, technical
-          discussions and code camps. I also actively contribute to other open source communities. I am a regular
-          speaker at many conferences, technical events, local user group meetups and Microsoft events.
-        </p>
-        <p>
-          I have been awarded Microsoft's prestigious Most Valuable Professional (MVP) title for
-          last eight years in a row under Developer Technologies category, for my community
-          contributions in modern web technologies using open source and Microsoft technologies.
+        <p>I am Shravan Kumar Kasagoni working as a Solution Delivery Manager at Novartis. As part of my daily job, I am responsible for Solution Architecture, Development, and Delivery of enterprise applications with Intelligent Process Automation (Business Process Management, Robotic Process Automation, and Artificial Intelligence), Cloud (AWS, Azure),  and Modern UI frameworks. Prior to Novartis, I worked with Thomson Reuters, RealPage, and Pramati Technologies. My expertise includes different cloud technologies, modern JavaScript frameworks, and many front-end technologies.</p>
+        <p>I am a core member of the Microsoft User Group Hyderabad. As a community leader, I manage user group and community-related activities like conducting monthly meetups, events, presentations, technical discussions, and code camps. I also actively contribute to other open source communities. I am a regular speaker at many conferences, technical events, local user group meetups, and Microsoft events.</p>
+        <p>I have been awarded Microsoft's prestigious Most Valuable Professional (MVP) title for eight years (2012-2019) in a row for my community contributions in modern web technologies using open source and Microsoft technologies.
         </p>
       </div>
     </section>
