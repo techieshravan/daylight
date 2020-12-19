@@ -8,7 +8,7 @@
 
   <?php if (!is_single()) { ?>
     <meta name="description"
-          content="Shravan Kumar Kasagoni is a web developer, designer, and writer who breaks down complex concepts for all skill levels.">
+          content="Shravan Kumar Kasagoni is a developer, architect, and writer who breaks down complex concepts for all skill levels.">
   <?php } ?>
   <?php wp_head(); ?>
 </head>
@@ -22,7 +22,7 @@
     <div class="nav-container">
       <div class="brand">
         <a href="<?php echo site_url(); ?>">
-          <img src="<?php echo site_url(); ?>/wp-content/uploads/site-icon-150x150.png" class="brand-icon">
+<!--           <img src="<?php echo site_url(); ?>/wp-content/uploads/cropped-site-icon-150x150-1-32x32.png" class="brand-icon"> -->
           <span>Shravan Kumar Kasagoni</span>
         </a>
       </div>
