@@ -5,5 +5,5 @@
     </div>
   <?php endif; ?>
   <div class="post-title"><?php the_title(); ?></div>
-  <span class="post-date"><time><?php the_time('F j, Y'); ?></time></span>
+  <span class="post-date"><time><?php the_time('M j, Y'); ?></time></span>
 </a>
